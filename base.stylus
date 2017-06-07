@@ -1,0 +1,168 @@
+// By gavinning
+
+box()
+    display -webkit-box
+    display -moz-box
+    display box
+
+
+box-flex( args = 1 )
+    -webkit-box-flex args
+    -moz-box-flex args
+    box-flex args
+
+
+box-pack( args = center )
+    -webkit-box-pack args
+    -moz-box-pack args
+    box-pack args
+
+
+box-align( args = center )
+    -webkit-box-align args
+    -moz-box-align args
+    box-align args
+
+
+box-orient( args = vertical )
+    -webkit-box-orient args
+    -moz-box-orient args
+    box-orient args
+
+
+box-order( args = 1 )
+    -webkit-box-ordinal-group args
+    box-ordinal-group args
+
+
+box-center()
+    box-pack()
+    box-align()
+
+
+line-clamp()
+    -webkit-line-clamp arguments
+    -moz-line-clamp arguments
+    line-clamp arguments
+
+
+bg( url, repeat no-repeat, size = auto )
+    background url( url ) repeat
+    background-size( size )
+
+
+bgl( c1, c2, direction = top )
+    background -webkit-linear-gradient(direction, c1, c2)
+    background -moz-linear-gradient(direction, c1, c2)
+    background linear-gradient(direction, c1, c2)
+
+
+mask(url, size = 100% auto)
+    -webkit-mask url( url )
+    -moz-mask url( url )
+    mask url( url )
+    mask-size(size)
+
+
+mask-size(size = 100% auto)
+    -webkit-mask-size size
+    -moz-mask-size size
+    mask-size size
+
+
+radius()
+    -webkit-border-radius arguments
+    -moz-border-radius arguments
+    border-radius arguments
+
+
+box-shadow()
+    -webkit-box-shadow arguments
+    -moz-box-shadow arguments
+    box-shadow arguments
+
+
+shadow()
+    -webkit-box-shadow arguments
+    -moz-box-shadow arguments
+    box-shadow arguments
+
+
+text-shadow()
+    shadow()
+
+
+box-sizing( args = border-box )
+    -webkit-box-sizing args
+    -moz-box-sizing args
+    box-sizing args
+
+
+transform()
+    -webkit-transform arguments
+    -moz-transform arguments
+    transform arguments
+
+
+transition()
+    -webkit-transition arguments
+    -moz-transition arguments
+    transition arguments
+
+
+clamp1()
+    overflow hidden
+    white-space nowrap
+    text-overflow ellipsis
+
+
+clamp( num )
+    box()
+    box-orient()
+    line-clamp( num )
+    word-break break-all
+    overflow hidden
+    text-overflow ellipsis
+
+
+tap-color( alpha = 0 )
+    -webkit-tap-highlight-color rgba(0,0,0,alpha)
+    -moz-tap-highlight-color rgba(0,0,0,alpha)
+    tap-highlight-color rgba(0,0,0,alpha)
+
+
+bgss(size = cover, position = center, repeat no-repeat)
+    background-size size
+    background-position position
+    background-repeat repeat
+
+
+// 自动滚动
+autoscroll()
+    overflow-x auto
+    -webkit-overflow-scrolling touch
+    -moz-overflow-scrolling touch
+    overflow-scrolling touch
+
+
+// Update 2016-05-05
+// 隐藏滚动条
+hide-scroll()
+    &::-webkit-scrollbar
+        display none
+
+
+hide-scrollbar()
+    &::-webkit-scrollbar
+        display none
+
+
+// 显示滚动条
+show-scroll()
+    &::-webkit-scrollbar
+        display block
+
+
+show-scrollbar()
+    &::-webkit-scrollbar
+        display block

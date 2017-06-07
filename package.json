@@ -1,0 +1,24 @@
+{
+  "name": "base.stylus",
+  "version": "1.0.0",
+  "description": "stylus mixin base",
+  "main": "base.styl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vue-components/base.stylus.git"
+  },
+  "keywords": [
+    "stylus",
+    "mixin",
+    "base"
+  ],
+  "author": "gavinning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vue-components/base.stylus/issues"
+  },
+  "homepage": "https://github.com/vue-components/base.stylus#readme"
+}
